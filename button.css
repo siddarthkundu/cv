@@ -1,0 +1,23 @@
+#btn{
+
+margin-right:40px;
+}
+
+#card{
+  margin-left: 150px;
+}
+#para{
+  height: 350px;
+  background-color: #51adcf;
+  padding: 38px;
+}
+#para1{
+  color: white;
+  position: relative;
+  top: 20%;
+  left:0%;
+  right:0%;
+}
+#card{
+  margin-left: 20px;
+}

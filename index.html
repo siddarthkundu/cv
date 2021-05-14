@@ -1,0 +1,237 @@
+<html>
+  <head>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <title></title>
+    <link rel="stylesheet" href="button.css">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success" type="submit">Search</button>
+     </form>
+        </div>
+      </div>
+
+
+       <div id="btn">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-en">
+    <button class="btn btn-primary" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1" type="button">Login</button>
+      </div>
+     </div>
+    </nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!--
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        -->
+      <div class="modal-body">
+        <form action="logincheck.php" method="POST">
+            <div class="mb-3">
+             <label for="exampleInputEmail1" class="form-label">Email address</label>
+             <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+             <label for="exampleInputPassword1" class="form-label">Password</label>
+             <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+             <div id="emailHelp" class="form-text">We'll never share your Password with anyone else.</div>
+            </div>
+
+         <div class="modal-footer">
+           <button type="submit" class="btn btn-primary">Login</button>
+         </div>
+      </form>
+      <a href="register.html">Create a new Account</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+<img src="Elearning.jpg" alt="Elearning" height="75%" width="100%">
+</div>
+<br><br>
+
+<div id="para">
+<div id="para1">
+  <h3 class="card-title">Why E-learning?</h3>
+  <p class="card-text">
+       E-Learning today has taken the world by storm and helped make learning on-the-go, a norm. Today, learners have access to multiple forms of content which aim to engage the learner. Psychologists state that the average Human attention span is approximately eight seconds, although teenagers and adults find it difficult to sustain attention on one thing for more than 20 minutes at a time. To break the barriers teenagers and adults have towards learning, today’s online courses and learning engagements strive to make the best use of technology such as smartphones and tablets to disseminate byte-sized learning nuggets. Content is also tailored to suit each niche learner segment. E-Learning is also leveraged to complement Instructor-Led Training Modules, so that a learners get the best of both worlds and are able to quickly apply their newly acquired skills, on-the-job. The benefits of e-learning are multi-fold. Some well-known and acknowledged benefits include faster delivery, lower costs, more effective learning and no-geographical constraints. E-Learning will continue to be an effective instrument for self-development for audiences, for years to come.
+  </p>
+</div>
+</div>
+<br><br>
+<center><h3>Programs</h3></center><br>
+
+
+<div id="card">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100" style="width: 18rem;">
+        <h5 class="card-title">Foundation Programme</h5><br>
+      <img src="A.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Foundation Programme can be pursued by 10+2 passed or equivalent students.</p><br>
+      </div>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModala">View Details</button>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" style="width: 18rem;">
+         <h5 class="card-title">Executive Programme</h5><br>
+      <img src="B.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+         <p class="card-text">Executive Programme can be pursued by a Graduate of all streams except Fine Arts.</p>
+      </div>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalb">View Details</button>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" style="width: 18rem;">
+        <h5 class="card-title">Professional Programme</h5><br>
+      <img src="C.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Professional Programme can be pursued only after clearing the Executive Programme of CS Course.</p>
+      </div>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalc">View Details</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Modal1 -->
+<div class="modal fade" id="exampleModala" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h2>Foundation Programme</h2><br>
+<ul>
+<li>Business Environment and Law</li>
+<li>Business Management Ethics and Entrepreneurship</li>
+<li>Business Economics</li>
+<li>Fundamentals of Accounting and Auditing</li>
+</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal2 -->
+<div class="modal fade" id="exampleModalb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <h2>  Executive Programme</h2><br>
+        <h4> Module 1</h4>
+        <ul>
+          <li>  Jurisprudence, Interpretation & General Laws</li>
+          <li>  Company Law</li>
+          <li > Setting up of Business Entities and Closure</li>
+          <li>  Tax Laws</li>
+        </ul>
+        <h4> Module 2 </h4>
+         <ul>
+          <li>  Corporate & Management Accounting</li>
+          <li>Securities Laws & Capital Markets</li>
+          <li>  Economic, Business and Commercial Laws</li>
+          <li>  Financial and Strategic Management</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal3 -->
+<div class="modal fade" id="exampleModalc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+            <h2>  Professional Programme</h2><br>
+              <h4>  Module 1</h4>
+              <ul>
+                <li>Advanced Company Law and Practice</li>
+                <li>Secretarial Audit, Compliance Management and Due Diligence</li>
+                <li>Corporate Restructuring, Valuation and Insolvency</li>
+              </ul>
+              <h4>  Module 2</h4>
+              <ul>
+                <li>Information Technology and Systems Audit</li>
+                <li>Financial, Treasury and Forex Management</li>
+                <li>Ethics, Governance and Sustainability</li>
+              </ul>
+              <h4>  Module 3</h4>
+              <ul>
+                <li>Advanced Tax Laws and Practice</li>
+                <li>Advance Tax Laws and practices</li>
+                <li>Drafting, Appearances and Pleadings</li>
+              </ul>
+              <h4>  Module 3, Electives 1 out of below 5 subjects</h4>
+            <ul>
+                <li>Banking Law and Practice</li>
+                <li>Capital, Commodity and Money Market</li>
+                <li>Insurance Law and Practice</li>
+                <li>Intellectual Property Rights - Law and Practice</li>
+                <li>International Business-Laws and Practices</li>
+              </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  </body>
+</html>
